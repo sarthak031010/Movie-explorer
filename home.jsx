@@ -13,18 +13,6 @@ function Home() {
       .catch((err) => console.log(err));
   }, [category]);
 
-  //  const handleCategory = (category) => {
-  //  fetch(`https://api.themoviedb.org/3/movie/${category}?api_key=${API_KEY}`)
-  //    .then((res) => res.json())
-  //    .then((data) => {
-  //      if (Array.isArray(data.results)) setMovies(data.results);
-  //      else setMovies([]);
-  //      setCategory(category);
-  //      console.log("Movies: ", data.results);
-  //      console.log("category: ", category);
-  //    })
-  //    .catch((err) => console.log("err"));
-  // };
 
   const Slidemovies = [
     { id: 1, title: "Avenger", src: "/photos/avangers.webp" },
